@@ -1,0 +1,28 @@
+.square {
+    width: 10%;
+    margin: 20px;
+    background-color: black;
+}
+
+.square.left {
+    float: left;
+}
+
+.square.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+right {
+    float: right;
+}
+
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
